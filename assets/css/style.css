@@ -38,13 +38,13 @@ nav {
     font-size: 20px;
 }
 
-/* Navigation unordered list selector */
-nav ul {
+/* Unordered list selector */
+ul {
     list-style-type: none;
 }
 
-/* Navigation unordered list list selector */
-nav ul li {
+/* List selector */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -60,7 +60,14 @@ p {
     font-size: 16px;
 }
 
-/* Hero ID selector */
+/* Content class selector */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Figure hero ID selector */
 #hero {
     height: 800px;
     width: 100%;
@@ -80,13 +87,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* Content class selector */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* Benefits class selector */
@@ -142,7 +142,7 @@ section div h2 {
 }
 
 /* Footing Selector */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -150,6 +150,6 @@ section div h2 {
 }
 
 /* Footer Heading */
-.footer h4 {
+footer h4 {
     font-size: 20px;
 }
